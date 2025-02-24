@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canteen Home</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f8f9fa;
+            background-image: url(https://tse2.mm.bing.net/th?id=OIP.Z4LQOodyFqp50wKxT5Hm9AHaE7&pid=Api&P=0&h=220);
+            background-repeat: repeat;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .hero {
+            width: 250px;
+            height: 250px;
+            background: url('thali.jpg') no-repeat center/cover;
+            border-radius: 50%;
+            animation: spin 15s linear infinite;
+            margin-right: 250px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .text-box {
+            background-color: #ff6347;
+            color: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-btn {
+            padding: 10px 20px;
+            background-color: #ff6347;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu-btn:hover {
+            background-color: #e55337;
+        }
+
+        .dishes {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            flex-wrap: wrap;
+        }
+
+        .dish {
+            width: 200px;
+            text-align: center;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+        }
+
+        footer {
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            background-color: #343a40;
+            color: #fff;
+            margin-top: 76px;
+            position: relative; bottom: 1;
+        }
+
+        .nav-bar{
+            height: 50px;
+            width: 100vw;
+            display: flex;
+            background-color: transparent;
+            backdrop-filter: blur(45px);
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+           
+           
+        }
+        nav,nav a{
+            position: sticky; top: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 700;
+            text-decoration: none;
+            color: #f8f9fa;
+        }
+nav a:hover{
+    color: aqua;
+}
+
+.about{
+    background-color: transparent;
+    backdrop-filter: blur(60px);
+    margin: 20px;
+    border-radius: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+justify-content: center;
+padding: 0px 25px 0px 25px;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <div class="logo">
+<h1 style="font-size: larger; font-weight: 900;">CHOMU's CAFE🐼</h1>
+            </div>
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#menu">MENU</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="hero"></div>
+        <div class="content">
+            <div class="text-box">Welcome to our Canteen! Enjoy the best food in town.</div>
+            <div class="text-box">Check out our delicious and freshly made dishes.</div>
+            <button class="menu-btn" onclick="location.href='menu.html'">Go to Menu</button>
+        </div>
+    </div>
+
+    <div class="about">
+        <h2>ABOUT</h2>
+        <p align="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam consequuntur optio praesentium voluptatibus enim ullam animi sapiente culpa minima deleniti eum quos sequi, ut beatae corporis est totam? Odit veritatis delectus architecto quia eveniet distinctio esse, ab, molestias modi deserunt eligendi corrupti nesciunt earum adipisci reiciendis quibusdam quo iusto minima autem quisquam temporibus! Recusandae quasi obcaecati minima architecto qui rerum. Fugit natus necessitatibus culpa nobis. Rerum, hic enim? Reprehenderit minus, culpa hic, saepe odit eligendi repellat amet eius vel a voluptate modi unde sapiente ratione illo molestiae exercitationem minima quaerat commodi quod iste laudantium nam velit debitis? Recusandae, debitis nisi!</p>
+    </div>
+
+    <div class="dishes">
+        <div class="dish">🍕 Pizza</div>
+        <div class="dish">🍔 Burger</div>
+        <div class="dish">🍝 Pasta</div>
+        <div class="dish">🍰 Cake</div>
+    </div>
+
+    
+
+    <footer>
+        &copy; 2025 Canteen. All rights reserved. | Designed with ❤️<br>
+        <p>Designed by Chomu & Mogli</p>
+    </footer>
+</body>
+</html>
