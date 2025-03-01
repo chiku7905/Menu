@@ -331,7 +331,7 @@ body{
 .menu-item:hover {
             height: 120px;
             justify-content: center;
-            background-color: #ff6347;
+            background-color: antiquewhite;
             align-items: center;
         }
 
