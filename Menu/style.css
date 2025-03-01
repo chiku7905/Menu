@@ -359,7 +359,7 @@ body{
         }
         /* For making the images circular */
 img {
-    border-radius: 50%;
+    border-radius: 70%;
     width: 180px; /* You can adjust the size to fit your design */
     height: 150px; /* You can adjust the size to fit your design */
     object-fit: cover; /* Ensures the image covers the entire circle */
