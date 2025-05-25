@@ -22,7 +22,7 @@ document.querySelector("form").addEventListener("submit", (event) => {
 
     if (validUsers[enteredUsername] && validUsers[enteredUsername] === enteredPassword) {
         // alert("Login successful!");
-        window.location.href = "/localindex.html"; // Redirect to Google
+        window.location.href = "/Menu/localindex.html"; // Redirect to Google
     } else {
         alert("Invalid username or password. Please try again!");
     }
