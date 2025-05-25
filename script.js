@@ -10,7 +10,8 @@ let handR = document.querySelector(".hand-r");
 let validUsers = {
     "chomu9453": "9453583811",
     "mogli7905": "7905514040",
-    ".": "."
+     ".": ".",
+     "Chomu7905": "7905514040"
 };
 
 // Prevent form submission and handle login
